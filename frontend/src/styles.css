@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #0d2438;
+}
+body { margin: 0; background: #f4f7fa; }
+a { color: #0b6ea8; }
+nav {
+  display: flex; gap: 18px; padding: 14px 24px;
+  background: #0d2438; color: #fff;
+}
+nav a { color: #cfe6f5; text-decoration: none; font-weight: 600; }
+nav a.active { color: #fff; text-decoration: underline; }
+.brand { font-weight: 800; margin-right: 18px; }
+main { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3eaf0; }
+th { background: #eef3f7; }
+.card { background: #fff; border: 1px solid #e3eaf0; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+label { display: block; font-size: 13px; margin: 8px 0 4px; font-weight: 600; }
+input, select { padding: 8px; border: 1px solid #c5d2dd; border-radius: 6px; width: 100%; box-sizing: border-box; }
+button { background: #0b6ea8; color: #fff; border: 0; padding: 9px 16px; border-radius: 6px; cursor: pointer; font-weight: 600; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+.row { display: flex; gap: 12px; }
+.row > div { flex: 1; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; font-weight: 700; }
+.badge.available { background: #d7f5e0; color: #0a6b32; }
+.badge.occupied { background: #fde2e1; color: #9b1c17; }
+.error { color: #9b1c17; font-weight: 600; }
+.muted { color: #6b8094; font-size: 13px; }

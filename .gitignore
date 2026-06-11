@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+*.log
+.DS_Store
+.claude/
+
+# Interviewer-only material — MUST NOT be shared with candidates
+DEFECTS.md
+SCORING_RUBRIC.md
+INTERVIEWER.md
